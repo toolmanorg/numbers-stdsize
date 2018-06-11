@@ -112,7 +112,7 @@ otherwise Parse returns ErrNotInteger.
 
 If the given size modifier is unrecognized, Parse returns ErrBadModifier.
 
-If the numeric value is unparable, then Parse returns an error of type
+If the numeric value is unparsable, then Parse returns an error of type
 *strconv.NumError.
 
 
