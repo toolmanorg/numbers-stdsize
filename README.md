@@ -10,7 +10,7 @@
 ## <a name="pkg-overview">Overview</a>
 Package stdsize provides the integer type "Value" that may be created
 or displayed using human-readable strings.  For example, "2Ki" gets
-parsed as 2048 while the numeric value of 5*1000*1000 (i.e. 5 million)
+parsed as 2048 while the numeric value of 5\*1000\*1000 (i.e. 5 million)
 is displayed as "5M".
 
 
