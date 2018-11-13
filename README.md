@@ -1,4 +1,5 @@
 
+[![GoDoc](https://godoc.org/toolman.org/numbers/stdsize?status.svg)](https://godoc.org/toolman.org/numbers/stdsize) [![Go Report Card](https://goreportcard.com/badge/toolman.org/numbers/stdsize)](https://goreportcard.com/report/toolman.org/numbers/stdsize) [![Build Status](https://travis-ci.org/toolmanorg/numbers-stdsize.svg?branch=master)](https://travis-ci.org/toolmanorg/numbers-stdsize)
 
 # stdsize
 `import "toolman.org/numbers/stdsize"`
