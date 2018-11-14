@@ -14,7 +14,6 @@ or displayed using human-readable strings.  For example, "2Ki" gets
 parsed as 2048 while the numeric value of 5\*1000\*1000 (i.e. 5 million)
 is displayed as "5M".
 
-
 ## <a name="pkg-install">Install</a>
 
 ``` sh
@@ -33,7 +32,6 @@ is displayed as "5M".
 [format.go](/src/toolman.org/numbers/stdsize/format.go) [parse.go](/src/toolman.org/numbers/stdsize/parse.go) [parts.go](/src/toolman.org/numbers/stdsize/parts.go) [units.go](/src/toolman.org/numbers/stdsize/units.go) [value.go](/src/toolman.org/numbers/stdsize/value.go) 
 
 
-
 ## <a name="pkg-variables">Variables</a>
 ``` go
 var (
@@ -47,8 +45,6 @@ var (
     ErrNotInteger = errors.New("bare size values must be integers")
 )
 ```
-
-
 
 ## <a name="Value">type</a> [Value](/src/target/value.go?s=1156:1172#L16)
 ``` go
@@ -80,12 +76,6 @@ const (
 )
 ```
 Constants for common binary (i.e. power of 2) values.
-
-
-
-
-
-
 
 ### <a name="Parse">func</a> [Parse](/src/target/parse.go?s=1531:1566#L31)
 ``` go
@@ -123,9 +113,6 @@ func ParseBinary(s string) (Value, error)
 ```
 ParseBinary is similar to Parse except all size modifiers are assumed to be
 binary. In other words, both "K" and "Ki" are interpreted as 2^10.
-
-
-
 
 
 ### <a name="Value.Format">func</a> (Value) [Format](/src/target/format.go?s=907:949#L16)
